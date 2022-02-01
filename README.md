@@ -33,7 +33,7 @@ The machine needs to be prepared. In CI this is done using `molecule/default/pre
     - role: buluma.core_dependencies
     - role: buluma.epel
     - role: buluma.buildtools
-    - role: robertdebock.python_pip
+    - role: buluma.python_pip
 ```
 
 
@@ -76,8 +76,8 @@ The following roles are used to prepare a system. You can prepare your system in
 |[buluma.buildtools](https://galaxy.ansible.com/buluma/buildtools)|[![Build Status GitHub](https://github.com/buluma/ansible-role-buildtools/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-buildtools/actions)|[![Build Status GitLab ](https://gitlab.com/buluma/ansible-role-buildtools/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-buildtools)|
 |[buluma.core_dependencies](https://galaxy.ansible.com/buluma/core_dependencies)|[![Build Status GitHub](https://github.com/buluma/ansible-role-core_dependencies/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-core_dependencies/actions)|[![Build Status GitLab ](https://gitlab.com/buluma/ansible-role-core_dependencies/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-core_dependencies)|
 |[buluma.epel](https://galaxy.ansible.com/buluma/epel)|[![Build Status GitHub](https://github.com/buluma/ansible-role-epel/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-epel/actions)|[![Build Status GitLab ](https://gitlab.com/buluma/ansible-role-epel/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-epel)|
-|[robertdebock.python_pip](https://galaxy.ansible.com/buluma/robertdebock.python_pip)|[![Build Status GitHub](https://github.com/buluma/robertdebock.python_pip/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/robertdebock.python_pip/actions)|[![Build Status GitLab ](https://gitlab.com/buluma/robertdebock.python_pip/badges/main/pipeline.svg)](https://gitlab.com/buluma/robertdebock.python_pip)|
-|[robertdebock.service](https://galaxy.ansible.com/buluma/robertdebock.service)|[![Build Status GitHub](https://github.com/buluma/robertdebock.service/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/robertdebock.service/actions)|[![Build Status GitLab ](https://gitlab.com/buluma/robertdebock.service/badges/main/pipeline.svg)](https://gitlab.com/buluma/robertdebock.service)|
+|[buluma.python_pip](https://galaxy.ansible.com/buluma/python_pip)|[![Build Status GitHub](https://github.com/buluma/ansible-role-python_pip/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-python_pip/actions)|[![Build Status GitLab ](https://gitlab.com/buluma/ansible-role-python_pip/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-python_pip)|
+|[buluma.service](https://galaxy.ansible.com/buluma/service)|[![Build Status GitHub](https://github.com/buluma/ansible-role-service/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-service/actions)|[![Build Status GitLab ](https://gitlab.com/buluma/ansible-role-service/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-service)|
 
 ## [Context](#context)
 

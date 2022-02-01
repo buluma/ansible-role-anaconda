@@ -9,4 +9,4 @@
     - role: buluma.core_dependencies
     - role: buluma.epel
     - role: buluma.buildtools
-    - role: robertdebock.python_pip
+    - role: buluma.python_pip

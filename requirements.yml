@@ -4,7 +4,7 @@ roles:
   - name: buluma.buildtools
   - name: buluma.core_dependencies
   - name: buluma.epel
-  - name: robertdebock.python_pip
-  - name: robertdebock.service
+  - name: buluma.python_pip
+  - name: buluma.service
 collections:
   - name: ansible.posix
