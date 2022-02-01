@@ -1,0 +1,12 @@
+---
+- name: Prepare
+  hosts: all
+  gather_facts: no
+  become: yes
+
+  roles:
+    - role: buluma.bootstrap
+    - role: buluma.core_dependencies
+    - role: buluma.epel
+    - role: buluma.buildtools
+    - role: robertdebock.python_pip
