@@ -115,7 +115,7 @@ Some roles can't run on a specific distribution or version. Here are some except
 
 ## [Included version(s)](#included-versions)
 
-This role [refers to a version](https://github.com/robertdebock/ansible-role-anaconda/blob/master/defaults/main.yml) released by Anaconda. Check the released version(s) here:
+This role [refers to a version](https://github.com/buluma/ansible-role-anaconda/blob/main/defaults/main.yml) released by Anaconda. Check the released version(s) here:
 - [Anaconda](https://www.anaconda.com/distribution/).
 
 This version reference means a role may get outdated. Monthly tests occur to see if [bit-rot](https://en.wikipedia.org/wiki/Software_rot) occured. If you however find a problem, please create an issue, I'll get on it as soon as possible.
