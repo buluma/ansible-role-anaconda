@@ -35,7 +35,7 @@ jobs:
         config:
           - image: "debian"
             tag: "bullseye"
-          # TODO expand build list
+
     steps:
       - name: checkout
         uses: actions/checkout@v2
