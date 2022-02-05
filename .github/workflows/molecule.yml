@@ -49,9 +49,9 @@ jobs:
             tag: "rawhide"
           - image: "opensuse"
             tag: "latest"
-          - image: "ubuntu"
+          - image: "docker-ubuntu-systemd"
             tag: "latest"
-          - image: "ubuntu"
+          - image: "docker-ubuntu-systemd"
             tag: "bionic"
     steps:
       - name: checkout
