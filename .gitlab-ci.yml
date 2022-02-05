@@ -16,9 +16,11 @@ molecule:
   retry: 1
   parallel:
     matrix:
-      - image: "debian"
-        tag: "bullseye"
-      - image: "debian"
+      - image: "enterpriselinux"
+        tag: "latest"
+      - image: "debian-systemd"
+        tag: "latest"
+      - image: "debian-systemd"
         tag: "bookworm"
       - image: "fedora"
         tag: "34"
@@ -26,6 +28,8 @@ molecule:
         tag: "latest"
       - image: "fedora"
         tag: "rawhide"
+      - image: "opensuse"
+        tag: "latest"
       - image: "ubuntu"
         tag: "latest"
       - image: "ubuntu"
@@ -33,4 +37,4 @@ molecule:
 
 galaxy:
   script:
-    - ansible-galaxy role info ${CI_PROJECT_NAMESPACE}.anaconda
+    - ansible-galaxy role info ${CI_PROJECT_NAMESPACE}.${CI_PROJECT_NAME}
