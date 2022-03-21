@@ -66,7 +66,7 @@ galaxy:
   script:
     - ansible-galaxy role info buluma.anaconda
 
-role_testing_live:
+role_testing:
   script:
     - image=${image} tag=${tag} ansible-galaxy install buluma.anaconda
   retry: 1
