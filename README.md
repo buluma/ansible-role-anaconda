@@ -2,9 +2,9 @@
 
 Install anaconda on your system.
 
-|GitHub|GitLab|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-anaconda/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-anaconda/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-anaconda/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-anaconda)|[![quality](https://img.shields.io/ansible/quality/57861)](https://galaxy.ansible.com/buluma/anaconda)|[![downloads](https://img.shields.io/ansible/role/d/57861)](https://galaxy.ansible.com/buluma/anaconda)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-anaconda.svg)](https://github.com/buluma/ansible-role-anaconda/releases/)|
+|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|---------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-anaconda/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-anaconda/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-anaconda/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-anaconda)|[![quality](https://img.shields.io/ansible/quality/57861)](https://galaxy.ansible.com/buluma/anaconda)|[![downloads](https://img.shields.io/ansible/role/d/57861)](https://galaxy.ansible.com/buluma/anaconda)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-anaconda.svg)](https://github.com/buluma/ansible-role-anaconda/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-anaconda.svg)](https://github.com/buluma/ansible-role-anaconda/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr/buluma/ansible-role-anaconda.svg)](https://github.com/buluma/ansible-role-anaconda/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
