@@ -4,7 +4,7 @@ Install anaconda on your system.
 
 |GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
 |------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-anaconda/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-anaconda/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-anaconda/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-anaconda)|[![quality](https://img.shields.io/ansible/quality/57861)](https://galaxy.ansible.com/buluma/anaconda)|[![downloads](https://img.shields.io/ansible/role/d/57861)](https://galaxy.ansible.com/buluma/anaconda)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-anaconda.svg)](https://github.com/buluma/ansible-role-anaconda/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-anaconda.svg)](https://github.com/buluma/ansible-role-anaconda/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr/buluma/ansible-role-anaconda.svg)](https://github.com/buluma/ansible-role-anaconda/pulls/)|
+|[![github](https://github.com/buluma/ansible-role-anaconda/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-anaconda/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-anaconda/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-anaconda)|[![quality](https://img.shields.io/ansible/quality/57861)](https://galaxy.ansible.com/buluma/anaconda)|[![downloads](https://img.shields.io/ansible/role/d/57861)](https://galaxy.ansible.com/buluma/anaconda)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-anaconda.svg)](https://github.com/buluma/ansible-role-anaconda/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-anaconda.svg)](https://github.com/buluma/ansible-role-anaconda/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-anaconda.svg)](https://github.com/buluma/ansible-role-anaconda/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -115,7 +115,7 @@ Some roles can't run on a specific distribution or version. Here are some except
 
 ## [Included version(s)](#included-versions)
 
-This role [refers to a version](https://github.com/buluma/ansible-role-anaconda/blob/master/defaults/main.yml) released by Anaconda. Check the released version(s) here:
+This role [refers to a version](https://github.com/buluma/ansible-role-anaconda/blob/main/defaults/main.yml) released by Anaconda. Check the released version(s) here:
 - [Anaconda](https://www.anaconda.com/distribution/).
 
 This version reference means a role may get outdated. Monthly tests occur to see if [bit-rot](https://en.wikipedia.org/wiki/Software_rot) occured. If you however find a problem, please create an issue, I'll get on it as soon as possible.
