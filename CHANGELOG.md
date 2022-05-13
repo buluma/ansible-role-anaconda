@@ -56,11 +56,14 @@
 **Merged pull requests:**
 
 - version bump [\#8](https://github.com/buluma/ansible-role-anaconda/pull/8) ([buluma](https://github.com/buluma))
-- bump versions [\#7](https://github.com/buluma/ansible-role-anaconda/pull/7) ([buluma](https://github.com/buluma))
 
 ## [1.0.5](https://github.com/buluma/ansible-role-anaconda/tree/1.0.5) (2022-02-10)
 
 [Full Changelog](https://github.com/buluma/ansible-role-anaconda/compare/1.0.4...1.0.5)
+
+**Merged pull requests:**
+
+- bump versions [\#7](https://github.com/buluma/ansible-role-anaconda/pull/7) ([buluma](https://github.com/buluma))
 
 ## [1.0.4](https://github.com/buluma/ansible-role-anaconda/tree/1.0.4) (2022-02-09)
 
