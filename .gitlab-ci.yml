@@ -1,5 +1,5 @@
 ---
-image: "buluma/github-action-molecule:4.0.7"
+image: "buluma/github-action-molecule:4.0.9"
 
 services:
   - docker:dind
@@ -12,7 +12,8 @@ molecule:
   stage: build
   allow_failure: true
   script:
-    - image=${image} tag=${tag} molecule test
+    - if [ -f tox.ini ] ; then tox ; fi
+    - if [ ! -f tox.ini ; then molecule test ; fi
   retry: 1
   parallel:
     matrix:
