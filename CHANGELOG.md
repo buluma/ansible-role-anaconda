@@ -1,5 +1,9 @@
 # Changelog
 
+## [2.0.5](https://github.com/buluma/ansible-role-anaconda/tree/2.0.5) (2022-07-20)
+
+[Full Changelog](https://github.com/buluma/ansible-role-anaconda/compare/2.0.4...2.0.5)
+
 ## [2.0.4](https://github.com/buluma/ansible-role-anaconda/tree/2.0.4) (2022-05-13)
 
 [Full Changelog](https://github.com/buluma/ansible-role-anaconda/compare/2.0.3...2.0.4)
