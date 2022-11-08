@@ -10,3 +10,4 @@
     - role: buluma.epel
     - role: buluma.buildtools
     - role: buluma.python_pip
+    - role: buluma.pip
