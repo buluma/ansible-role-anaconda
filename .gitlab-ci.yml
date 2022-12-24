@@ -13,27 +13,13 @@ molecule:
   parallel:
     matrix:
       - image: "enterpriselinux"
-        tag: "8"
-      - image: "debian-systemd"
-        tag: "latest"
-      - image: "debian-systemd"
-        tag: "buster"
-      - image: "fedora-systemd"
-        tag: "35"
-      - image: "fedora-systemd"
-        tag: "latest"
-      - image: "fedora-systemd"
-        tag: "rawhide"
-      - image: "opensuse"
-        tag: "latest"
-      - image: "docker-ubuntu-systemd"
+        tag: "7"
+      - image: "ubuntu"
         tag: "latest"
       - image: "docker-ubuntu-systemd"
         tag: "bionic"
       - image: "docker-ubuntu-systemd"
         tag: "focal"
-      - image: "docker-ubuntu-systemd"
-        tag: "jammy"
 
 galaxy:
   script:
