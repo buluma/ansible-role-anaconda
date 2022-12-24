@@ -4,9 +4,6 @@ image: "buluma/github-action-molecule:5.0.0"
 variables:
   PY_COLORS: 1
 
-variables:
-  PY_COLORS: 1
-
 molecule:
   script:
     - molecule test
