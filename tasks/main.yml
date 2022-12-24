@@ -48,7 +48,7 @@
 
 - name: Change selinux settings
   block:
-    - name: check for domain_can_mmap_files seboolean
+    - name: Check for domain_can_mmap_files seboolean
       ansible.builtin.command:
         cmd: getsebool domain_can_mmap_files
       register: anaconda_getsebool_domain_can_mmap_files
@@ -56,7 +56,7 @@
       changed_when: no
       failed_when: no
 
-    - name: modify selinux settings
+    - name: Modify selinux settings
       ansible.posix.seboolean:
         name: domain_can_mmap_files
         state: yes
