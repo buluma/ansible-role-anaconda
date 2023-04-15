@@ -30,7 +30,7 @@
   ansible.builtin.get_url:
     url: "{{ anaconda_url }}"
     dest: "{{ anaconda_download_dest }}"
-    mode: 0644
+    mode: "0640"
 
 - name: Install anaconda
   ansible.builtin.command:
@@ -39,7 +39,7 @@
 
 - name: Create anaconda service
   ansible.builtin.import_role:
-    name: buluma.service
+    name: robertdebock.service
   vars:
     service_list:
       - name: anaconda
@@ -47,6 +47,9 @@
         start_command: "{{ anaconda_prefix }}/bin/jupyter notebook --ip={{ anaconda_ip }} --port={{ anaconda_port }} --allow-root"
 
 - name: Change selinux settings
+  when:
+    - ansible_selinux.status is defined
+    - ansible_selinux.status == "enabled"
   block:
     - name: Check for domain_can_mmap_files seboolean
       ansible.builtin.command:
@@ -54,7 +57,6 @@
       register: anaconda_getsebool_domain_can_mmap_files
       check_mode: no
       changed_when: no
-      failed_when: no
 
     - name: Modify selinux settings
       ansible.posix.seboolean:
@@ -63,9 +65,10 @@
         persistent: yes
       when:
         - anaconda_getsebool_domain_can_mmap_files.rc == 0
-  when:
-    - ansible_selinux.status is defined
-    - ansible_selinux.status == "enabled"
+  rescue:
+    - name: Could not change selinux settings
+      ansible.builtin.debug:
+        msg: "Could not change selinux settings, continuing."
 
 - name: Start and enable anaconda
   ansible.builtin.service:
