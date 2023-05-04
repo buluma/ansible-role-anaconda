@@ -2,7 +2,15 @@
 
 ## [Unreleased](https://github.com/buluma/ansible-role-anaconda/tree/HEAD)
 
-[Full Changelog](https://github.com/buluma/ansible-role-anaconda/compare/2.0.5...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-anaconda/compare/v2.0.6...HEAD)
+
+**Merged pull requests:**
+
+- Bump buluma/molecule-action from 5.0.4 to 5.0.5 [\#20](https://github.com/buluma/ansible-role-anaconda/pull/20) ([dependabot[bot]](https://github.com/apps/dependabot))
+
+## [v2.0.6](https://github.com/buluma/ansible-role-anaconda/tree/v2.0.6) (2023-04-15)
+
+[Full Changelog](https://github.com/buluma/ansible-role-anaconda/compare/2.0.5...v2.0.6)
 
 **Merged pull requests:**
 
