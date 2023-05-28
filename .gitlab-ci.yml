@@ -1,5 +1,5 @@
 ---
-image: "buluma/github-action-molecule:5.0.4"
+image: "buluma/github-action-molecule:5.0.7"
 
 variables:
   PY_COLORS: 1
@@ -14,23 +14,23 @@ molecule:
     matrix:
       - image: "enterpriselinux"
         tag: "8"
-      - image: "debian"
+      - image: "debian-systemd"
         tag: "latest"
-      - image: "debian"
+      - image: "debian-systemd"
         tag: "bookworm"
-      - image: "fedora"
+      - image: "fedora-systemd"
         tag: "36"
-      - image: "fedora"
+      - image: "fedora-systemd"
+        tag: "37"
+      - image: "fedora-systemd"
         tag: "latest"
-      - image: "fedora"
-        tag: "rawhide"
-      - image: "opensuse"
+      - image: "docker-opensuse-systemd"
         tag: "latest"
-      - image: "ubuntu"
+      - image: "docker-ubuntu-systemd"
         tag: "latest"
-      - image: "ubuntu"
+      - image: "docker-ubuntu-systemd"
         tag: "focal"
-      - image: "ubuntu"
+      - image: "docker-ubuntu-systemd"
         tag: "bionic"
 
 galaxy:

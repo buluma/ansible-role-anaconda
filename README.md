@@ -2,9 +2,9 @@
 
 Install anaconda on your system.
 
-|GitHub|GitLab|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-anaconda/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-anaconda/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-anaconda/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-anaconda)|[![quality](https://img.shields.io/ansible/quality/57861)](https://galaxy.ansible.com/buluma/anaconda)|[![downloads](https://img.shields.io/ansible/role/d/57861)](https://galaxy.ansible.com/buluma/anaconda)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-anaconda.svg)](https://github.com/buluma/ansible-role-anaconda/releases/)|
+|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|---------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-anaconda/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-anaconda/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-anaconda/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-anaconda)|[![quality](https://img.shields.io/ansible/quality/57861)](https://galaxy.ansible.com/buluma/anaconda)|[![downloads](https://img.shields.io/ansible/role/d/57861)](https://galaxy.ansible.com/buluma/anaconda)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-anaconda.svg)](https://github.com/buluma/ansible-role-anaconda/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-anaconda.svg)](https://github.com/buluma/ansible-role-anaconda/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-anaconda.svg)](https://github.com/buluma/ansible-role-anaconda/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -69,7 +69,7 @@ anaconda_prefix: /root/anaconda3
 
 ## [Requirements](#requirements)
 
-- pip packages listed in [requirements.txt](https://github.com/buluma/ansible-role-anaconda/blob/master/requirements.txt).
+- pip packages listed in [requirements.txt](https://github.com/buluma/ansible-role-anaconda/blob/main/requirements.txt).
 
 ## [State of used roles](#state-of-used-roles)
 
@@ -112,12 +112,20 @@ The minimum version of Ansible required is 2.10, tests have been done to:
 
 If you find issues, please register them in [GitHub](https://github.com/buluma/ansible-role-anaconda/issues)
 
+## [Changelog](#changelog)
+
+[Role History](https://github.com/buluma/ansible-role-anaconda/blob/main/CHANGELOG.md)
+
 ## [License](#license)
 
-[Apache-2.0](https://github.com/buluma/ansible-role-anaconda/blob/master/LICENSE).
+[Apache-2.0](https://github.com/buluma/ansible-role-anaconda/blob/main/LICENSE).
 
 ## [Author Information](#author-information)
 
 [buluma](https://buluma.github.io/)
 
 Please consider [sponsoring me](https://github.com/sponsors/buluma).
+
+### [Special Thanks](#special-thanks)
+
+Template inspired by [Robert de Bock](https://github.com/robertdebock)
