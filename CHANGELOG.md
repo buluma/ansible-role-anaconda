@@ -99,13 +99,16 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-anaconda/compare/1.0.4...1.0.5)
 
+**Merged pull requests:**
+
+- bump versions [\#7](https://github.com/buluma/ansible-role-anaconda/pull/7) ([buluma](https://github.com/buluma))
+
 ## [1.0.4](https://github.com/buluma/ansible-role-anaconda/tree/1.0.4) (2022-02-09)
 
 [Full Changelog](https://github.com/buluma/ansible-role-anaconda/compare/1.0.3...1.0.4)
 
 **Merged pull requests:**
 
-- bump versions [\#7](https://github.com/buluma/ansible-role-anaconda/pull/7) ([buluma](https://github.com/buluma))
 - Bump alstr/todo-to-issue-action from 2.3 to 4.6 [\#6](https://github.com/buluma/ansible-role-anaconda/pull/6) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/checkout from 1 to 2.4.0 [\#5](https://github.com/buluma/ansible-role-anaconda/pull/5) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/galaxy-action from 1.0.1 to 1.1.0 [\#4](https://github.com/buluma/ansible-role-anaconda/pull/4) ([dependabot[bot]](https://github.com/apps/dependabot))
