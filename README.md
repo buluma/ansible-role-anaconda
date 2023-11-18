@@ -1,4 +1,4 @@
-# [anaconda](#anaconda)
+# [Ansible role anaconda](#anaconda)
 
 Install anaconda on your system.
 
