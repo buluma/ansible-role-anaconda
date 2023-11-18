@@ -6,6 +6,7 @@
 
 **Closed issues:**
 
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#35](https://github.com/buluma/ansible-role-anaconda/issues/35)
 - Lunar is Not ready [\#28](https://github.com/buluma/ansible-role-anaconda/issues/28)
 - Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#27](https://github.com/buluma/ansible-role-anaconda/issues/27)
 - Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#25](https://github.com/buluma/ansible-role-anaconda/issues/25)
@@ -34,6 +35,7 @@
 
 **Merged pull requests:**
 
+- Bump buluma/molecule-action from 5.0.4 to 5.0.5 [\#20](https://github.com/buluma/ansible-role-anaconda/pull/20) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/molecule-action from 5.0.1 to 5.0.4 [\#18](https://github.com/buluma/ansible-role-anaconda/pull/18) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [2.0.5](https://github.com/buluma/ansible-role-anaconda/tree/2.0.5) (2022-07-20)
@@ -62,7 +64,6 @@
 
 **Merged pull requests:**
 
-- Bump buluma/molecule-action from 5.0.4 to 5.0.5 [\#20](https://github.com/buluma/ansible-role-anaconda/pull/20) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.3 to 1.0.4 [\#12](https://github.com/buluma/ansible-role-anaconda/pull/12) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.0.11](https://github.com/buluma/ansible-role-anaconda/tree/1.0.11) (2022-03-23)
