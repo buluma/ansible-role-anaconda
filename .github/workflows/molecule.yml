@@ -46,7 +46,7 @@ jobs:
           - image: "enterpriselinux"
             tag: "8"
           - image: "debian-systemd"
-            tag: "bullseye"
+            tag: "latest"
           - image: "fedora-systemd"
             tag: "37"
           - image: "fedora-systemd"
