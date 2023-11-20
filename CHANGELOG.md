@@ -6,6 +6,7 @@
 
 **Closed issues:**
 
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#37](https://github.com/buluma/ansible-role-anaconda/issues/37)
 - Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#35](https://github.com/buluma/ansible-role-anaconda/issues/35)
 - Lunar is Not ready [\#28](https://github.com/buluma/ansible-role-anaconda/issues/28)
 - Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#27](https://github.com/buluma/ansible-role-anaconda/issues/27)
