@@ -6,6 +6,7 @@
 
 **Closed issues:**
 
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#39](https://github.com/buluma/ansible-role-anaconda/issues/39)
 - Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#37](https://github.com/buluma/ansible-role-anaconda/issues/37)
 - Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#35](https://github.com/buluma/ansible-role-anaconda/issues/35)
 - Lunar is Not ready [\#28](https://github.com/buluma/ansible-role-anaconda/issues/28)
@@ -20,6 +21,7 @@
 - Bump alstr/todo-to-issue-action from 2.3 to 4.11 [\#36](https://github.com/buluma/ansible-role-anaconda/pull/36) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump alstr/todo-to-issue-action from 4.10 to 4.11 [\#32](https://github.com/buluma/ansible-role-anaconda/pull/32) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/checkout from 3 to 4 [\#31](https://github.com/buluma/ansible-role-anaconda/pull/31) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump alstr/todo-to-issue-action from 2.3 to 4.10 [\#29](https://github.com/buluma/ansible-role-anaconda/pull/29) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump alstr/todo-to-issue-action from 2.3 to 4.10 [\#26](https://github.com/buluma/ansible-role-anaconda/pull/26) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [2.0.8](https://github.com/buluma/ansible-role-anaconda/tree/2.0.8) (2023-05-28)
@@ -66,7 +68,6 @@
 
 **Merged pull requests:**
 
-- Bump alstr/todo-to-issue-action from 2.3 to 4.10 [\#29](https://github.com/buluma/ansible-role-anaconda/pull/29) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.3 to 1.0.4 [\#12](https://github.com/buluma/ansible-role-anaconda/pull/12) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.0.11](https://github.com/buluma/ansible-role-anaconda/tree/1.0.11) (2022-03-23)
