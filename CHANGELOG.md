@@ -16,6 +16,7 @@
 
 **Merged pull requests:**
 
+- Bump alstr/todo-to-issue-action from 2.3 to 4.11 [\#42](https://github.com/buluma/ansible-role-anaconda/pull/42) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump alstr/todo-to-issue-action from 2.3 to 4.11 [\#40](https://github.com/buluma/ansible-role-anaconda/pull/40) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump alstr/todo-to-issue-action from 2.3 to 4.11 [\#38](https://github.com/buluma/ansible-role-anaconda/pull/38) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump alstr/todo-to-issue-action from 2.3 to 4.11 [\#36](https://github.com/buluma/ansible-role-anaconda/pull/36) ([dependabot[bot]](https://github.com/apps/dependabot))
