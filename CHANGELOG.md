@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-anaconda/tree/HEAD)
+## [3.0.2](https://github.com/buluma/ansible-role-anaconda/tree/3.0.2) (2023-12-28)
 
-[Full Changelog](https://github.com/buluma/ansible-role-anaconda/compare/3.0.1...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-anaconda/compare/3.0.1...3.0.2)
 
 **Closed issues:**
 
@@ -11,6 +11,7 @@
 
 **Merged pull requests:**
 
+- Bump actions/checkout from 3 to 4 [\#47](https://github.com/buluma/ansible-role-anaconda/pull/47) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump alstr/todo-to-issue-action from 2.3 to 4.11 [\#46](https://github.com/buluma/ansible-role-anaconda/pull/46) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [3.0.1](https://github.com/buluma/ansible-role-anaconda/tree/3.0.1) (2023-12-24)
