@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-anaconda/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-anaconda/compare/3.0.2...HEAD)
+
+**Merged pull requests:**
+
+- Bump actions/checkout from 3 to 4 [\#48](https://github.com/buluma/ansible-role-anaconda/pull/48) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [3.0.2](https://github.com/buluma/ansible-role-anaconda/tree/3.0.2) (2023-12-28)
 
 [Full Changelog](https://github.com/buluma/ansible-role-anaconda/compare/3.0.1...3.0.2)
