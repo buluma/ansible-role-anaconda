@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-anaconda/tree/HEAD)
+## [3.1.0](https://github.com/buluma/ansible-role-anaconda/tree/3.1.0) (2024-01-02)
 
-[Full Changelog](https://github.com/buluma/ansible-role-anaconda/compare/3.0.2...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-anaconda/compare/3.0.2...3.1.0)
 
 **Closed issues:**
 
