@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.2.0](https://github.com/buluma/ansible-role-anaconda/tree/3.2.0) (2024-01-09)
+
+[Full Changelog](https://github.com/buluma/ansible-role-anaconda/compare/3.1.0...3.2.0)
+
+**Merged pull requests:**
+
+- Bump buluma/dependabot-auto-merge-action from 2.0.2 to 2.1.1 [\#50](https://github.com/buluma/ansible-role-anaconda/pull/50) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [3.1.0](https://github.com/buluma/ansible-role-anaconda/tree/3.1.0) (2024-01-02)
 
 [Full Changelog](https://github.com/buluma/ansible-role-anaconda/compare/3.0.2...3.1.0)
@@ -57,7 +65,6 @@
 - Bump actions/checkout from 3 to 4 [\#31](https://github.com/buluma/ansible-role-anaconda/pull/31) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump alstr/todo-to-issue-action from 2.3 to 4.10 [\#29](https://github.com/buluma/ansible-role-anaconda/pull/29) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump alstr/todo-to-issue-action from 2.3 to 4.10 [\#26](https://github.com/buluma/ansible-role-anaconda/pull/26) ([dependabot[bot]](https://github.com/apps/dependabot))
-- Bump buluma/molecule-action from 5.0.5 to 5.0.6 [\#22](https://github.com/buluma/ansible-role-anaconda/pull/22) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [2.0.8](https://github.com/buluma/ansible-role-anaconda/tree/2.0.8) (2023-05-28)
 
@@ -66,6 +73,7 @@
 **Merged pull requests:**
 
 - Bump buluma/molecule-action from 5.0.6 to 5.0.7 [\#23](https://github.com/buluma/ansible-role-anaconda/pull/23) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump buluma/molecule-action from 5.0.5 to 5.0.6 [\#22](https://github.com/buluma/ansible-role-anaconda/pull/22) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [2.0.7](https://github.com/buluma/ansible-role-anaconda/tree/2.0.7) (2023-05-05)
 
@@ -90,15 +98,15 @@
 
 ## [2.0.2](https://github.com/buluma/ansible-role-anaconda/tree/2.0.2) (2022-04-12)
 
-[Full Changelog](https://github.com/buluma/ansible-role-anaconda/compare/2.0.1...2.0.2)
-
-## [2.0.1](https://github.com/buluma/ansible-role-anaconda/tree/2.0.1) (2022-03-31)
-
-[Full Changelog](https://github.com/buluma/ansible-role-anaconda/compare/1.0.12...2.0.1)
+[Full Changelog](https://github.com/buluma/ansible-role-anaconda/compare/1.0.12...2.0.2)
 
 ## [1.0.12](https://github.com/buluma/ansible-role-anaconda/tree/1.0.12) (2022-03-31)
 
-[Full Changelog](https://github.com/buluma/ansible-role-anaconda/compare/1.0.11...1.0.12)
+[Full Changelog](https://github.com/buluma/ansible-role-anaconda/compare/2.0.1...1.0.12)
+
+## [2.0.1](https://github.com/buluma/ansible-role-anaconda/tree/2.0.1) (2022-03-31)
+
+[Full Changelog](https://github.com/buluma/ansible-role-anaconda/compare/1.0.11...2.0.1)
 
 **Merged pull requests:**
 
