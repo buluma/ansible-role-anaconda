@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-anaconda/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-anaconda/compare/3.3.0...HEAD)
+
+**Merged pull requests:**
+
+- Bump release-drafter/release-drafter from 5 to 6 [\#52](https://github.com/buluma/ansible-role-anaconda/pull/52) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [3.3.0](https://github.com/buluma/ansible-role-anaconda/tree/3.3.0) (2024-01-20)
 
 [Full Changelog](https://github.com/buluma/ansible-role-anaconda/compare/3.2.0...3.3.0)
