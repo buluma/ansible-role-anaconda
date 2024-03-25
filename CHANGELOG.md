@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Bump dependabot/fetch-metadata from 1 to 2 [\#56](https://github.com/buluma/ansible-role-anaconda/pull/56) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#55](https://github.com/buluma/ansible-role-anaconda/pull/55) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#53](https://github.com/buluma/ansible-role-anaconda/pull/53) ([dependabot[bot]](https://github.com/apps/dependabot))
 
