@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Bump release-drafter/release-drafter from 5 to 6 [\#55](https://github.com/buluma/ansible-role-anaconda/pull/55) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#53](https://github.com/buluma/ansible-role-anaconda/pull/53) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [24.2.0](https://github.com/buluma/ansible-role-anaconda/tree/24.2.0) (2024-02-17)
