@@ -1,5 +1,9 @@
 # Changelog
 
+## [24.7.12](https://github.com/buluma/ansible-role-anaconda/tree/24.7.12) (2024-07-12)
+
+[Full Changelog](https://github.com/buluma/ansible-role-anaconda/compare/24.3.31...24.7.12)
+
 ## [24.3.31](https://github.com/buluma/ansible-role-anaconda/tree/24.3.31) (2024-03-26)
 
 [Full Changelog](https://github.com/buluma/ansible-role-anaconda/compare/24.2.0...24.3.31)
