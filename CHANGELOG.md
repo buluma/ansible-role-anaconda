@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Bump ansible/ansible-lint from 24.9.0 to 24.9.2 [\#58](https://github.com/buluma/ansible-role-anaconda/pull/58) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.7.0 to 24.9.0 [\#57](https://github.com/buluma/ansible-role-anaconda/pull/57) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [24.7.12](https://github.com/buluma/ansible-role-anaconda/tree/24.7.12) (2024-07-12)
