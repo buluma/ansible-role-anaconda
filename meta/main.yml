@@ -2,15 +2,14 @@
 galaxy_info:
   author: buluma
   role_name: anaconda
-  description: Install anaconda on your system.
+  description: "Install anaconda on your system."
   license: Apache-2.0
   company: ShadowNet
   min_ansible_version: "2.12"
-
   platforms:
     - name: EL
       versions:
-        - "8"
+        - all
     - name: Fedora
       versions:
         - all
@@ -19,11 +18,7 @@ galaxy_info:
         - all
     - name: Ubuntu
       versions:
-        - jammy
-        - focal
-        - bionic
-
+        - all
   galaxy_tags:
     - anaconda
-
 dependencies: []

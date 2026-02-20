@@ -5,4 +5,4 @@
 repository:
   description: Install anaconda on your system.
   homepage: https://buluma.github.io/
-  topics: anaconda, ansible, molecule, tox, playbook
+  topics: anaconda, ansible, molecule, playbook

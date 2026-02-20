@@ -1,6 +1,7 @@
 ---
 name: Mirror and run GitLab CI
 
+# noqa: yaml[truthy]
 on:
   push:
     branches:
@@ -8,8 +9,8 @@ on:
       - main
       - testing
     paths-ignore:
-      - '**/README.md'
-      - '**/CHANGELOG.md'
+      - "**/README.md"
+      - "**/CHANGELOG.md"
 
 concurrency:
   group: ${{ github.ref }}-${{ github.workflow }}
