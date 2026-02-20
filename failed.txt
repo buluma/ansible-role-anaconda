@@ -1,2 +1,3 @@
 ansible-role-anaconda
 ansible-role-anaconda
+ansible-role-anaconda [yamllint]: ./.ansible/roles/buluma.core_dependencies/.github/workflows/requirements2png.yml 1:1 error too many blank lines (1 > 0) (empty-lines) 
