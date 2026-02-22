@@ -1,3 +1,4 @@
 ansible-role-anaconda
 ansible-role-anaconda
 ansible-role-anaconda [yamllint]: ./.ansible/roles/buluma.core_dependencies/.github/workflows/requirements2png.yml 1:1 error too many blank lines (1 > 0) (empty-lines) 
+ansible-role-anaconda [generator]: ERROR: Unhandled exception when retrieving 'DEFAULT_LOCAL_TMP': [Errno 1] Operation not permitted: '/Users/shadowwalker/.ansible/tmp/ansible-local-82020qlcrkobb'
