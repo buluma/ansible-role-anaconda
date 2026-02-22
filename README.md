@@ -11,32 +11,28 @@ Install anaconda on your system.
 This example is taken from [`molecule/default/converge.yml`](https://github.com/buluma/ansible-role-anaconda/blob/master/molecule/default/converge.yml) and is tested on each push, pull request and release.
 
 ```yaml
----
-- name: Converge
-  hosts: all
-  become: true
+- become: true
   gather_facts: true
-
+  hosts: all
+  name: Converge
   roles:
-    - role: buluma.anaconda
+  - role: buluma.anaconda
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-anaconda/blob/master/molecule/default/prepare.yml):
 
 ```yaml
----
-- name: Prepare
-  hosts: all
+- become: true
   gather_facts: false
-  become: true
-
+  hosts: all
+  name: Prepare
   roles:
-    - role: buluma.bootstrap
-    - role: buluma.core_dependencies
-    - role: buluma.epel
-    - role: buluma.buildtools
-    - role: buluma.python_pip
-    - role: buluma.pip
+  - role: buluma.bootstrap
+  - role: buluma.core_dependencies
+  - role: buluma.epel
+  - role: buluma.buildtools
+  - role: buluma.python_pip
+  - role: buluma.pip
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
@@ -46,25 +42,12 @@ Also see a [full explanation and example](https://buluma.github.io/how-to-use-th
 The default values for the variables are set in [`defaults/main.yml`](https://github.com/buluma/ansible-role-anaconda/blob/master/defaults/main.yml):
 
 ```yaml
----
-# defaults file for anaconda
-
-# The version of python to install, either 2 or 3.
-anaconda_python_version: 3
-
-# The version of anaconda to install.
-# See https://www.anaconda.com/distribution/
-anaconda_version: "2022.10"
-
-# What ip and port to let anaconda listen to.
-anaconda_ip: "0.0.0.0"
-anaconda_port: 8888
-
-# Where to save the (large) download file
 anaconda_download_dest: /tmp
-
-# Where to install anaconda
+anaconda_ip: 0.0.0.0
+anaconda_port: 8888
 anaconda_prefix: /root/anaconda3
+anaconda_python_version: 3
+anaconda_version: '2022.10'
 ```
 
 ## [Requirements](#requirements)
