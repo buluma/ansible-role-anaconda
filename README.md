@@ -11,28 +11,28 @@ Install anaconda on your system.
 This example is taken from [`molecule/default/converge.yml`](https://github.com/buluma/ansible-role-anaconda/blob/master/molecule/default/converge.yml) and is tested on each push, pull request and release.
 
 ```yaml
-- become: true
-  gather_facts: true
-  hosts: all
-  name: Converge
-  roles:
-  - role: buluma.anaconda
+  - become: true
+    gather_facts: true
+    hosts: all
+    name: Converge
+    roles:
+      - role: buluma.anaconda
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-anaconda/blob/master/molecule/default/prepare.yml):
 
 ```yaml
-- become: true
-  gather_facts: false
-  hosts: all
-  name: Prepare
-  roles:
-  - role: buluma.bootstrap
-  - role: buluma.core_dependencies
-  - role: buluma.epel
-  - role: buluma.buildtools
-  - role: buluma.python_pip
-  - role: buluma.pip
+  - become: true
+    gather_facts: false
+    hosts: all
+    name: Prepare
+    roles:
+      - role: buluma.bootstrap
+      - role: buluma.core_dependencies
+      - role: buluma.epel
+      - role: buluma.buildtools
+      - role: buluma.python_pip
+      - role: buluma.pip
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
@@ -47,7 +47,7 @@ anaconda_ip: 0.0.0.0
 anaconda_port: 8888
 anaconda_prefix: /root/anaconda3
 anaconda_python_version: 3
-anaconda_version: '2022.10'
+anaconda_version: "2022.10"
 ```
 
 ## [Requirements](#requirements)
