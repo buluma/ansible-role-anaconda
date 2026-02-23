@@ -11,6 +11,7 @@ Install anaconda on your system.
 This example is taken from [`molecule/default/converge.yml`](https://github.com/buluma/ansible-role-anaconda/blob/master/molecule/default/converge.yml) and is tested on each push, pull request and release.
 
 ```yaml
+---
   - become: true
     gather_facts: true
     hosts: all
@@ -22,6 +23,7 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-anaconda/blob/master/molecule/default/prepare.yml):
 
 ```yaml
+---
   - become: true
     gather_facts: false
     hosts: all
@@ -42,6 +44,7 @@ Also see a [full explanation and example](https://buluma.github.io/how-to-use-th
 The default values for the variables are set in [`defaults/main.yml`](https://github.com/buluma/ansible-role-anaconda/blob/master/defaults/main.yml):
 
 ```yaml
+---
 anaconda_download_dest: /tmp
 anaconda_ip: 0.0.0.0
 anaconda_port: 8888
