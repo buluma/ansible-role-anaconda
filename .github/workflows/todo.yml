@@ -1,26 +1,34 @@
 ---
-name: TODO 2 Issue
-true:
+#
+# Ansible managed
+#
+
+name: "TODO 2 Issue"
+
+on:
   push:
     branches:
       - master
       - main
     paths-ignore:
-      - "**/README.md"
-      - "**/CHANGELOG.md"
+      - '**/README.md'
+      - '**/CHANGELOG.md'
     tags-ignore:
-      - "*"
+      - '*'
+
 permissions: write-all
+
 concurrency:
-  cancel-in-progress: true
   group: ${{ github.ref }}-${{ github.workflow }}
+  cancel-in-progress: true
+
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: "ubuntu-latest"
     steps:
-      - uses: actions/checkout@v6
-      - id: todo
-        name: TODO to Issue
-        uses: buluma/todo-to-issue-action@v2.0.2
+      - uses: "actions/checkout@v6"
+      - name: "TODO to Issue"
+        uses: "buluma/todo-to-issue-action@v2.0.2"
+        id: "todo"
         with:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}

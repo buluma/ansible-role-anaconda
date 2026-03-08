@@ -46,10 +46,10 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 ```yaml
 ---
 anaconda_download_dest: /tmp
-anaconda_ip: 0.0.0.0
-anaconda_port: 8888
+anaconda_ip: "0.0.0.0"
+anaconda_port: "8888"
 anaconda_prefix: /root/anaconda3
-anaconda_python_version: 3
+anaconda_python_version: "3"
 anaconda_version: "2022.10"
 ```
 
@@ -87,7 +87,6 @@ This role has been tested on these [container images](https://hub.docker.com/u/r
 |---------|----|
 |[EL](https://hub.docker.com/r/robertdebock/enterpriselinux)|all|
 |[Fedora](https://hub.docker.com/r/robertdebock/fedora)|all|
-|[opensuse](https://hub.docker.com/r/robertdebock/opensuse)|all|
 |[Ubuntu](https://hub.docker.com/r/robertdebock/ubuntu)|all|
 
 The minimum version of Ansible required is 2.12, tests have been done on:
@@ -105,3 +104,4 @@ If you find issues, please register them on [GitHub](https://github.com/buluma/a
 ## [Author Information](#author-information)
 
 [buluma](https://buluma.github.io/)
+
