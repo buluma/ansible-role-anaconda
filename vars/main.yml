@@ -7,4 +7,4 @@ anaconda_requirements:
     type: package
   - name: pexpect
     type: pip
-anaconda_url: https://repo.anaconda.com/archive/Anaconda{{ anaconda_python_version }}-{{ anaconda_version }}-Linux-{{ ansible_architecture }}.sh
+anaconda_url: "https://repo.anaconda.com/archive/Anaconda{{ anaconda_python_version }}-{{ anaconda_version }}-Linux-{{ ansible_architecture }}.sh"
