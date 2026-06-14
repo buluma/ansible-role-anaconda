@@ -1,11 +1,14 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-anaconda/tree/HEAD)
+## [26.6.0](https://github.com/buluma/ansible-role-anaconda/tree/26.6.0) (2026-06-14)
 
-[Full Changelog](https://github.com/buluma/ansible-role-anaconda/compare/24.7.12...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-anaconda/compare/24.7.12...26.6.0)
 
 **Merged pull requests:**
 
+- Bump docker/setup-buildx-action from 3 to 4 [\#69](https://github.com/buluma/ansible-role-anaconda/pull/69) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ansible/ansible-lint from 26.1.1 to 26.2.0 [\#67](https://github.com/buluma/ansible-role-anaconda/pull/67) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump actions/checkout from 4 to 6 [\#66](https://github.com/buluma/ansible-role-anaconda/pull/66) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.12.2 to 25.1.0 [\#63](https://github.com/buluma/ansible-role-anaconda/pull/63) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.12.1 to 24.12.2 [\#62](https://github.com/buluma/ansible-role-anaconda/pull/62) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.12.0 to 24.12.1 [\#61](https://github.com/buluma/ansible-role-anaconda/pull/61) ([dependabot[bot]](https://github.com/apps/dependabot))
