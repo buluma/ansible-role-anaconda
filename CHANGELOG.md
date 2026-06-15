@@ -1,5 +1,9 @@
 # Changelog
 
+## [26.6.1](https://github.com/buluma/ansible-role-anaconda/tree/26.6.1) (2026-06-15)
+
+[Full Changelog](https://github.com/buluma/ansible-role-anaconda/compare/26.6.0...26.6.1)
+
 ## [26.6.0](https://github.com/buluma/ansible-role-anaconda/tree/26.6.0) (2026-06-14)
 
 [Full Changelog](https://github.com/buluma/ansible-role-anaconda/compare/24.7.12...26.6.0)
@@ -54,7 +58,6 @@
 **Merged pull requests:**
 
 - Bump buluma/dependabot-auto-merge-action from 2.0.2 to 2.1.1 [\#50](https://github.com/buluma/ansible-role-anaconda/pull/50) ([dependabot[bot]](https://github.com/apps/dependabot))
-- Bump actions/checkout from 3 to 4 [\#47](https://github.com/buluma/ansible-role-anaconda/pull/47) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [3.1.0](https://github.com/buluma/ansible-role-anaconda/tree/3.1.0) (2024-01-02)
 
@@ -80,6 +83,7 @@
 
 **Merged pull requests:**
 
+- Bump actions/checkout from 3 to 4 [\#47](https://github.com/buluma/ansible-role-anaconda/pull/47) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump alstr/todo-to-issue-action from 2.3 to 4.11 [\#46](https://github.com/buluma/ansible-role-anaconda/pull/46) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [3.0.1](https://github.com/buluma/ansible-role-anaconda/tree/3.0.1) (2023-12-24)
