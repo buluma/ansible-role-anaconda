@@ -34,7 +34,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v7
       - name: ansible-lint
-        uses: ansible/ansible-lint@v26.8.0
+        uses: ansible/ansible-lint@v26.9.0
 
   molecule:
     needs:
@@ -56,8 +56,6 @@ jobs:
             tag: "debian13"
           - image: "docker-molecule-images"
             tag: "debian12"
-          - image: "docker-molecule-images"
-            tag: "debian11"
           - image: "docker-molecule-images"
             tag: "fedora44"
           - image: "docker-molecule-images"
