@@ -80,7 +80,7 @@ anaconda_ip: "0.0.0.0"
 anaconda_port: 8888
 anaconda_prefix: /root/anaconda3
 anaconda_python_version: 3
-anaconda_version: "2022.10"
+anaconda_version: "2026.07-1"
 ```
 
 ## [Requirements](#requirements)
